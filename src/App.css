@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+  margin: 0px;padding: 0px;
+}
+body { font-family: "Open Sans", sans-serif; background: #ebe9e9; }
+header { width: 100%; height: 70px; background: #fff; }
+header .row { margin: 0px !important; }
+header .logo { text-decoration: none; }
+header .logo img{ width: 45px !important; }
+
+header .logo span{ color: #292929; font-weight: 800; font-size: 24px;}
+
+header button{margin: 8px !important;}
+header button.rounded-circle{ 
+  min-width: 40px !important; width: 40px; height: 40px !important; 
+  background-color: #f0f5ff !important; color: #292929; padding-left: 10px !important;
+}
+
+header button.rounded-circle svg{ 
+   color: #292929; font-size: 18px;
+}
+
+.SearchBox { width: 250px; height: 40px; background: #f0f5ff; border-radius: 6px; padding: 3px 15px ;}
+.SearchBox input{ background: transparent;  border: 0px; outline: none; padding-left: 0px; font-size: 16px; color:#292929;}
+.SearchBox input::-webkit-input-placeholder{color:rgba(0, 0, 0, 7);}
+.SearchBox svg{ font-size: 16px; color:#292929;}  
+
+
+.myAcc .userImg { 
+  display: flex; align-items: center; 
+  justify-content: center; overflow: hidden; 
+  width: 40px !important; height: 40px !important; border: 1px solid #0858f7; padding: 3px; border-radius: 100%;} 
+
+  .myAcc .userImg .rounded-circle{ 
+  display: flex; align-items: center; 
+  justify-content: center; overflow: hidden; 
+  width: 100% !important; height: 100% !important; cursor: pointer; position: relative;
+}
+.myAcc .userImg .rounded-circle img{ object-fit: contain; width: 100%; height: 100%;}
+
+.myAcc .userInfo {padding-left: 15px;}
+.myAcc .userInfo h4{ font-size: 14px; font-weight: 500; margin-bottom: 0px;}
