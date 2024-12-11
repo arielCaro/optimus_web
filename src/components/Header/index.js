@@ -36,16 +36,18 @@ const Header = () => {
                         <Button className="rounded-circle mr-3"> <MdOutlineEmail/></Button>
                         <Button className="rounded-circle mr-3"> <FaRegBell/></Button>
 
-
-                        <div className="myAcc d-flex align-items-center">
-                            <div className="userImg">
-                                <span className="rounded-circle"><img src={avatarUser} /></span>
-                            </div>
-                            <div className="userInfo">
-                                <h4>Usuario Chofer</h4>
-                                <p className="mb-0"> @gmail.com </p>
-                            </div>
+                        <div className="myAccWrapper">
+                            <Button className="myAcc d-flex align-items-center">
+                                <div className="userImg">
+                                    <span className="rounded-circle"><img src={avatarUser} /></span>
+                                </div>
+                                <div className="userInfo">
+                                    <h4>Usuario Chofer</h4>
+                                    <p className="mb-0"> @gmail.com </p>
+                                </div>
+                            </Button>
                         </div>
+                        
                     </div>
                 </div>
             </div>
